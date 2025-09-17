@@ -62,7 +62,7 @@ topic = "your_topic_here"
 ### Changing Email Recipients
 
 To change the email recipients, edit the `from` and `to` fields in the `params` dictionary in `send_email.py`:
-* Note: For Resend to work, custom `from` addresses must be associated with a Domain you have added to your Resend account.
+* Note: For Resend to work, custom `from` addresses must be associated with a Domain you have added to your Resend account. Also, the Resend API-KEY you used must be associated with that same Domain.
 
 ```python
 params: resend.Emails.SendParams = {
